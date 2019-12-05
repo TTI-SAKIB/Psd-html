@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrappper{
+   
+}
+.banar-container{
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 99;
+
+}
+.top-header{
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-header .logo-containe{}
+.top-header .logo-containe img:nth-child(1){
+    width: 30px;
+}
+.top-header .logo-containe img:nth-child(2){
+    width: 100px;
+}
+.top-header .social-icon{
+  
+
+}
+.top-header .social-icon ul{
+    display: flex;
+}
+.top-header .social-icon ul li{
+    list-style: none;
+}
+.top-header .social-icon ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 20px;
+}
+.banar-cotant{
+    position: absolute;
+    top: 250px;
+    z-index: 999;
+    text-align: center;
+}
+.banar-cotant h2{
+    font-weight: 600;
+}
+.banar-cotant p{
+    margin: 30px 0px 40px;
+}
+.banar-cotant ul{
+
+    display: flex;
+    justify-content: center;
+}
+.banar-cotant ul li{
+    list-style: none;
+}
+.banar-cotant ul li a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0px 20px;
+    color: black;
+   
+}
+.banar-cotant ul li a i{
+   font-size: 30px;
+}
+/* #End banar */
+.feature-container{}
+.feature-container .feature-heading{
+    padding: 100px 0px 70px;
+    text-align: center;
+}
+.mobile-screen img{
+   
+}
+.mobile-screen img:nth-child(1){
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.mobile-screen img:nth-child(2){
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    width: 84%;
+    margin: auto;
+  
+}
+.first-column1{
+    padding: 20px 0px;
+}
+.first-column1 h2{
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.first-column1 p{}
+.footer{
+    background-color: black;
+    margin-top: 100px;
+    padding: 100px 0px 200px;
+}
+.footer .container .row .heading h2{
+    color:#FAD92B;
+    text-align: center;
+}
+.footer .container .row .heading p{
+    color: gray;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.contact-box{}
+.contact-box .form-box{
+    width: 100%;
+}
+.contact-box .form-box input{
+    width: 80%;
+    border-radius: 5px;
+}
+.contact-box .form-box button{
+    width: 15%;
+    background-color: #FAD92B;
+    color: black;
+    border-radius: 5px;
+    margin: 0px 0px 0px 5px; 
+}
+.boter-text{
+    padding-top: 30px;
+}
+.boter-text p{
+    margin-bottom: 0;
+    color: gray;
+}
+.TTI-SAKIB p{
+    font-family: lato;
+    font-size: 13px;	
+    color:#a6a6a6;
+   text-align: center;
+}
+/* media query */
+@media only screen and (max-width:1024px){
+    .banar-cotant{
+        top: 100px;
+    }
+}
+@media only screen and (max-width:768px){
+    .banar-cotant{
+        top: 80px;
+    }
+}
+@media only screen and (max-width:480px){
+    .top-header .logo-containe img:nth-child(1){
+        width: 20px;
+    }
+    .top-header .logo-containe img:nth-child(2){
+        width: 40px;
+    }
+    .top-header .social-icon ul li a{
+        margin-right: 10px;
+    }
+    .banar-cotant{
+        top: 60px;
+    }
+    .banar-cotant h2 {
+        font-size: 13px;
+
+    }
+    .banar-cotant ul{
+        display: none;
+    }
+ 
+   
+}
+@media only screen and (max-width:320px){
+    .top-header .logo-containe img:nth-child(1){
+        width: 20px;
+    }
+    .top-header .logo-containe img:nth-child(2){
+        width: 40px;
+    }
+    .top-header .social-icon ul li a{
+        margin-right: 10px;
+    }
+    .banar-cotant{
+        top: 60px;
+    }
+    .banar-cotant h2 {
+        font-size: 13px;
+
+    }
+    .banar-cotant ul{
+        display: none;
+    }
+    .feature-container .feature-heading{
+        padding: 20px 0px 10px;
+    }
+    .mobile-screen img:nth-child(2){
+        width: 75%;
+    }
+    .footer{
+        margin-top: 10px;
+        padding: 10px 0px 10px;
+    }
+    .contact-box .form-box input{
+        width: 60%;
+    }
+    .contact-box .form-box button{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:460px){
+    .banar-cotant p{
+        display: none;
+    }
+}
